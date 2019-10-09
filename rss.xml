@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>FoodEstetic</title>
+		<description>Блог о том как готовить еду красивую и вкусную пищу</description>
+		<link>https://foodestetic.github.io</link>
+		<atom:link href="https://foodestetic.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Салат с яйцом и кедровым орехом</title>
+				<description><![CDATA[
+					<a href="https://foodestetic.github.io/blog/recipes/2019-07-20-sup-iz-orehov-i-rukoly.html"><img width="100%" src="https://foodestetic.github.ioimages/recipes/2019/2019-06-20-salat-s-yajcom-i-kedrovym-orehom/1.jpg"></a>
+					Низкокалорийный салат для тех кто следит за фигурой
+					]]></description>
+				<pubDate>Sat, 20 Jul 2019 00:00:00 +0300</pubDate>
+				<link>https://foodestetic.github.io/blog/recipes/2019-07-20-sup-iz-orehov-i-rukoly.html</link>
+				<guid isPermaLink="true">https://foodestetic.github.io/blog/recipes/2019-07-20-sup-iz-orehov-i-rukoly.html</guid>
+			</item>
+		
+			<item>
+				<title>Суп с фрикадельками</title>
+				<description><![CDATA[
+					<a href="https://foodestetic.github.io/blog/recipes/2019-06-20-salat-s-yajcom-i-kedrovym-orehom.html"><img width="100%" src="https://foodestetic.github.ioimages/recipes/2019/2019-07-20-sup-s-frikadelkami/1.jpg"></a>
+					Легкий суп для любителей вкусно поесть
+					]]></description>
+				<pubDate>Thu, 20 Jun 2019 00:00:00 +0300</pubDate>
+				<link>https://foodestetic.github.io/blog/recipes/2019-06-20-salat-s-yajcom-i-kedrovym-orehom.html</link>
+				<guid isPermaLink="true">https://foodestetic.github.io/blog/recipes/2019-06-20-salat-s-yajcom-i-kedrovym-orehom.html</guid>
+			</item>
+		
+			<item>
+				<title>Салат с яйцом и кедровым орехом</title>
+				<description><![CDATA[
+					<a href="https://foodestetic.github.io/blog/recipes/2018-07-20-sup-iz-orehov-i-rukoly.html"><img width="100%" src="https://foodestetic.github.ioimages/recipes/2019/2019-06-20-salat-s-yajcom-i-kedrovym-orehom/1.jpg"></a>
+					Низкокалорийный салат для тех кто следит за фигурой
+					]]></description>
+				<pubDate>Fri, 20 Jul 2018 00:00:00 +0300</pubDate>
+				<link>https://foodestetic.github.io/blog/recipes/2018-07-20-sup-iz-orehov-i-rukoly.html</link>
+				<guid isPermaLink="true">https://foodestetic.github.io/blog/recipes/2018-07-20-sup-iz-orehov-i-rukoly.html</guid>
+			</item>
+		
+			<item>
+				<title>Суп с фрикадельками</title>
+				<description><![CDATA[
+					<a href="https://foodestetic.github.io/blog/recipes/2018-06-20-salat-s-yajcom-i-kedrovym-orehom.html"><img width="100%" src="https://foodestetic.github.ioimages/recipes/2019/2019-07-20-sup-s-frikadelkami/1.jpg"></a>
+					Легкий суп для любителей вкусно поесть
+					]]></description>
+				<pubDate>Wed, 20 Jun 2018 00:00:00 +0300</pubDate>
+				<link>https://foodestetic.github.io/blog/recipes/2018-06-20-salat-s-yajcom-i-kedrovym-orehom.html</link>
+				<guid isPermaLink="true">https://foodestetic.github.io/blog/recipes/2018-06-20-salat-s-yajcom-i-kedrovym-orehom.html</guid>
+			</item>
+		
+	</channel>
+</rss>
