@@ -7,10 +7,10 @@
 		<atom:link href="https://foodestetic.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Пеппероната из курицы</title>
+				<title>Фруктовый салат в апельсиновых корзинках</title>
 				<description><![CDATA[
-					<a href="https://foodestetic.github.io/blog/recipes/2019-10-11-fruktovyj-salat-v-apelsinovyx-korzinkax.html"><img width="100%" src="https://foodestetic.github.ioimages/recipes/2019/2019-09-20-pepperonata-iz-kuricy/1.jpg"></a>
-					Вкуснейшая итальянская пеппероната, от которой вы получите истинный экстаз
+					<a href="https://foodestetic.github.io/blog/recipes/2019-10-11-fruktovyj-salat-v-apelsinovyx-korzinkax.html"><img width="100%" src="https://foodestetic.github.io"></a>
+					Фруктовый салатик в апельсиновых корзинках. Красиво, вкусно и витаминно!
 					]]></description>
 				<pubDate>Fri, 11 Oct 2019 00:00:00 +0300</pubDate>
 				<link>https://foodestetic.github.io/blog/recipes/2019-10-11-fruktovyj-salat-v-apelsinovyx-korzinkax.html</link>
@@ -29,10 +29,10 @@
 			</item>
 		
 			<item>
-				<title>Пеппероната из курицы</title>
+				<title>Салат Цезарь</title>
 				<description><![CDATA[
-					<a href="https://foodestetic.github.io/blog/recipes/2019-10-07-salat-cezar.html"><img width="100%" src="https://foodestetic.github.ioimages/recipes/2019/2019-09-20-pepperonata-iz-kuricy/1.jpg"></a>
-					Вкуснейшая итальянская пеппероната, от которой вы получите истинный экстаз
+					<a href="https://foodestetic.github.io/blog/recipes/2019-10-07-salat-cezar.html"><img width="100%" src="https://foodestetic.github.io"></a>
+					Кушаем и радуемся красоте и вкусу этого замечательного салатика!
 					]]></description>
 				<pubDate>Mon, 07 Oct 2019 00:00:00 +0300</pubDate>
 				<link>https://foodestetic.github.io/blog/recipes/2019-10-07-salat-cezar.html</link>
@@ -65,7 +65,7 @@
 				<title>Блинчики ажурные</title>
 				<description><![CDATA[
 					<a href="https://foodestetic.github.io/blog/recipes/2019-10-01-blinchiki-azhurnye.html"><img width="100%" src="https://foodestetic.github.io"></a>
-					Блины с дырочками на молоке – тонкие и безумно вкусные блинчики
+					Блины с дырочками на кефире – тонкие и безумно вкусные блинчики
 					]]></description>
 				<pubDate>Tue, 01 Oct 2019 00:00:00 +0300</pubDate>
 				<link>https://foodestetic.github.io/blog/recipes/2019-10-01-blinchiki-azhurnye.html</link>
@@ -106,14 +106,14 @@
 			</item>
 		
 			<item>
-				<title>Уютный рестора &quot;La Gustiero&quot; на Арбате</title>
+				<title>MiraGrill: гриль-ресторан на проспекте Мира</title>
 				<description><![CDATA[
-					<a href="https://foodestetic.github.io/blog/restaurants/2019-07-20-salat-s-yajcom-i-kedrovym-orehom.html"><img width="100%" src="https://foodestetic.github.ioimages/recipes/2019/2019-07-20-sup-s-frikadelkami/1.jpg"></a>
-					[&quot;Здесь вы отдохнете от мирской суеты и хорошо проведете время с друзьями или семьей. Высококлассные повара накормят вас европейской едой&quot;, &quot;а приглушенный свет и спокойная живая музыка введут в состояние релакса и умиротворения...&quot;]
+					<a href="https://foodestetic.github.io/blog/restaurants/2019-08-20-miragrill-gril-restoran-na-prospekte-mira.html"><img width="100%" src="https://foodestetic.github.ioimages/restaurants/2019/2019-08-20-miragrill-gril-restoran-na-prospekte-mira/1.jpg"></a>
+					[&quot;Рядом с ВДНХ теперь можно попробовать приличные стейки, позавтракать и поучаствовать в бранче.&quot;]
 					]]></description>
-				<pubDate>Sat, 20 Jul 2019 00:00:00 +0300</pubDate>
-				<link>https://foodestetic.github.io/blog/restaurants/2019-07-20-salat-s-yajcom-i-kedrovym-orehom.html</link>
-				<guid isPermaLink="true">https://foodestetic.github.io/blog/restaurants/2019-07-20-salat-s-yajcom-i-kedrovym-orehom.html</guid>
+				<pubDate>Tue, 20 Aug 2019 00:00:00 +0300</pubDate>
+				<link>https://foodestetic.github.io/blog/restaurants/2019-08-20-miragrill-gril-restoran-na-prospekte-mira.html</link>
+				<guid isPermaLink="true">https://foodestetic.github.io/blog/restaurants/2019-08-20-miragrill-gril-restoran-na-prospekte-mira.html</guid>
 			</item>
 		
 	</channel>

@@ -25,7 +25,7 @@
 
 <body class="ishome">
 
-<header style="background-image: url(../img/main-background.jpg); background-position: center center">
+<header style="background-image: url(../img/backgrounds/background-recipes.jpg); background-position: center center">
 
 <div class="overlay">
 	<div class="top-menu-container">
@@ -115,19 +115,16 @@
 									
 								</div>
 
-								<div class="recipe-info-rating">
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star"></i>
-									<i class="fa fa-star-half-alt"></i>
+								<div class="recipe-info-time">
+									
+									<p> <i class="fa fa-clock"></i> <i></i> </p>
 								</div>
 
 							</div>
 
 							<div class="col-md-4 col-sm-12 recipe-ingredients">
 
-								<h3><i>Ингридиенты</i></h3>
+								<h3>Ингридиенты</h3>
 
 								<ul>
 									
@@ -190,13 +187,13 @@
 
 						<div class="row">
 
-							<div class="col-6 recipe-howto">
+							<div class="col-md-6 col-12 recipe-howto">
 
 								<img src="images/recipes/2019/2019-09-24-zapekanka-iz-kabachkov-s-kurinym-farshem/1.jpg" alt="">
 
 							</div>
 
-							<div class="col-6 recipe-howto">
+							<div class="col-md-6 col-12 recipe-howto">
 
 								<img src="images/recipes/2019/2019-09-24-zapekanka-iz-kabachkov-s-kurinym-farshem/2.jpg" alt="">
 
@@ -233,6 +230,7 @@
 быстро портится даже в холодильнике.
 </p>
 
+
 						</div>
 
 						<div class="recipe-video">
@@ -245,6 +243,28 @@
 
 
 <div class="pluso" data-background="transparent" data-options="big,round,line,horizontal,nocounter,theme=04" data-services="vkontakte,facebook,twitter,google,email"></div>
+
+<div id="disqus_thread"></div>
+<script>
+
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://foodestetic-github-io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            
 
 					</section>
 
@@ -270,7 +290,7 @@
 <a href="/blog/recipes/2019-10-01-blinchiki-azhurnye.html" class="col-12 item-popular">
 	<div class="row">
 		<div class="item-popular-img col-4"><img src="images/recipes/2019/2019-10-01-blinchiki-azhurnye/1t.jpg" alt=""></div>
-		<div class="item-popular-dsc col-8"><p>Блины с дырочками на молоке – тонкие и безумно вкусные блинчики</p></div>
+		<div class="item-popular-dsc col-8"><p>Блины с дырочками на кефире – тонкие и безумно вкусные блинчики</p></div>
 	</div>
 </a>
 
@@ -299,34 +319,54 @@
 </section>
 
 <section class="section-vk">
-	<h2><a href="#"><span>Мы в соцсетях</span></a></h2>
+	<h2><span>Мы в соцсетях</span></h2>
 	<div class="row">
-		<h3>Подпишись на наше официальное сообщество ВК</h3>
+		<h3>Подпишитесь на наше официальное в VK</h3>
 	</div>
-	<div class="row">
-		<img src="img\vk-comm.png" alt="">
-	</div>
+
+			<div id="vk_groups"></div>
+
 </section>
 
-<section class="section-books">
+<section class="section-products">
 
-	<h2><a href="#"><span>Книги</span></a></h2>
+	<h2><span>Товары</span></h2>
 	<div class="row">
-	
+		
 
-<div class="col-md-6 col-6 book-item">
-	<img src="images/shop/2019/2019-07-20-skovorodka/1t.jpg" alt="">
-	<button><p>купить</p></button>
+<div class="col-lg-6 col-md-12">
+	<a href="#" class="product-item">
+		<img src="images/shop/2019/2019-07-22-book-2/1t.jpg" alt="Кулинарная книга 2 описание">
+		<button><p>купить</p></button>
+	</a>
 </div>
 
-<div class="col-md-6 col-6 book-item">
-	<img src="images/shop/2019/2019-07-20-skovorodka/1t.jpg" alt="">
-	<button><p>купить</p></button>
+<div class="col-lg-6 col-md-12">
+	<a href="#" class="product-item">
+		<img src="images/shop/2019/2019-07-21-book-1/1t.jpg" alt="Кулинарная книга 1 описание">
+		<button><p>купить</p></button>
+	</a>
 </div>
 
-	
+<div class="col-lg-6 col-md-12">
+	<a href="#" class="product-item">
+		<img src="images/shop/2019/2019-07-20-skovorodka/1t.jpg" alt="Сковородка описание">
+		<button><p>купить</p></button>
+	</a>
+</div>
+
+<div class="col-lg-6 col-md-12">
+	<a href="#" class="product-item">
+		<img src="images/shop/2019/2019-07-19-knife/1t.jpg" alt="Ножи описание">
+		<button><p>купить</p></button>
+	</a>
+</div>
+
+
 	</div>
+
 </section>
+
 
 				</div>
 
@@ -340,7 +380,7 @@
 
 		<div class="bottom-menu-container">
 
-			<h1>Food Estetic</h1>
+			<h1>Food Estetic </h1>
 			
 			<nav class="soc soc-bottom">
 				<ul>
@@ -348,13 +388,30 @@
 				</ul>
 			</nav>
 
-			<p class="copy"> &copy; 2020 foodestetic.ru Копирование контента и размещение на других сайтах запрещено. </p>
+			<p class="copy"> 
+				2019
+				&copy; Food Estetic
+			</p>
+			<p> 
+				Копирование контента и размещение на других сайтах запрещено.
+			</p>
+			
 
 			</div>
 
 	</footer>
 
 	<script type="text/javascript" src="js/scripts.min.js"> </script>
+
+	<script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
+
+	<!-- VK Widget -->
+	<div id="vk_groups"></div>
+	<script type="text/javascript">
+	VK.Widgets.Group("vk_groups", {mode: 0, width: "auto", height: "300", color2: '222222', color3: 'F1B501'}, 50014266);
+	</script>
+
+<script id="dsq-count-scr" src="//foodestetic-github-io.disqus.com/count.js" async></script>
 
 </body>
 </html>
