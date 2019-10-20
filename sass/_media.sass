@@ -1,0 +1,1050 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+@media only screen and (max-width : 1919px)
+	// Стартовый экран - левая надпись---------
+	.left-text-1
+		left: -40px
+	.left-text-2
+		left: 0
+	// Портфолио-------------------------------
+	.content
+		article
+			max-width: 1680px
+	.tracks-grid
+		grid-template-columns: repeat(10, 1fr)
+	.track-item
+		min-height: 166px
+		&:nth-child(1)
+			grid-column: 1 / 4
+			grid-row: 2 / 5
+		&:nth-child(2)
+			grid-column: 5 / 7 
+			grid-row: 1 / 3
+		&:nth-child(3)
+			grid-column: 6 / 8
+			grid-row: 3 / 5
+		&:nth-child(4)
+			grid-column: 9 / 11
+			grid-row: 1 / 3	
+		&:nth-child(5)
+			grid-column: 9 / 11
+			grid-row: 3 / 5
+		&:nth-child(6)
+			grid-column: initial
+			grid-row: initial
+	// Демки--------------------------------------
+	.new-player 
+		height: 490px
+		.player 
+			.ctrl
+				top: 430px
+				left: 450px
+			.cover
+				height: 400px
+				width: 400px
+			.title
+				top: 460px
+			.artist
+				top: 420px
+			.playlist
+				width: 1190px
+				height: 400px
+				left: 450px
+				.song-box
+					.song-item
+						max-width: 290px
+						.item-track
+							font-size: 13px
+	
+//========================================	
+@media only screen and (max-width : 1679px)
+	// Портфолио---------------------------------
+	.content
+		article
+			max-width: 1440px
+	.tracks-grid
+		grid-template-columns: repeat(8, 1fr)
+	.track-item
+		min-height: 178px
+		&:nth-child(1)
+			grid-column: 1 / 3
+			grid-row: 1 / 3
+		&:nth-child(2)
+			grid-column: 3 / 5 
+			grid-row: 2 / 4
+		&:nth-child(3)
+			grid-column: 6 / 8
+			grid-row: 1 / 3
+		&:nth-child(4)
+			grid-column: 7 / 9
+			grid-row: 3 / 5	
+		&:nth-child(5)
+			grid-column: initial
+			grid-row: initial	
+		&:nth-child(6)
+			grid-column: initial
+			grid-row: initial
+	// Навигация---------------------------------		
+	.owl-nav
+		bottom: 385px
+	//-------------------------------------------------
+	// Демки--------------------------------------
+	.new-player 
+		height: 480px
+		.player 
+			.ctrl
+				height: 50px
+				width: 75%
+				top: 430px
+				left: 450px
+				.tracker
+					width: 60%
+				.vol-icon
+					left: 70%
+				.volume
+					left: 75%
+			.title
+				font-size: 20px
+				top: 450px
+				color: black
+			.artist
+				font-size: 30px
+				top: 410px
+				color: $red
+			.playlist
+				width: 950px
+				height: 400px
+				left: 450px
+				.song-box
+					.song-item
+						min-width: 300px
+//========================================
+@media only screen and (max-width : 1439px)
+	// Стартовый экран - левая надпись---------
+	.left-text-1
+		left: -80px
+	.left-text-2
+		left: -50px
+	// Портфолио-------------------------------
+	.content
+		article
+			max-width: 1366px
+	.tracks-grid
+		grid-template-columns: repeat(8, 1fr)
+	.track-item
+		min-height: 168.75px
+	// Навигация---------------------------------		
+	.owl-nav
+		bottom: 365px
+	// Демки--------------------------------------
+	.new-player 
+		height: 470px
+		.player 
+			.cover
+				height: 400px
+				width: 400px
+			.ctrl
+				height: 50px
+				width: 75%
+				top: 420px
+				left: 430px
+				.tracker
+					width: 57%
+				.vol-icon
+					left: 70%
+				.volume
+					left: 78%
+			.title
+				font-size: 20px
+				top: 440px
+				color: black
+			.artist
+				font-size: 25px
+				top: 405px
+				color: $red
+			.playlist
+				width: 920px
+				height: 400px
+				left: 430px
+				.song-box
+					.song-item
+						min-width: 300px
+	// Резиденты----------------------------------
+	.resid
+		.res-o
+			height: 250px
+			width: 250px
+	// Услуги и цены ----------------------------
+	.large-window
+		height: 600px
+		width: 600px
+		.window-tint
+			.services
+				ul
+					li
+						h3
+							font-size: 28px
+//===========================================
+@media only screen and (max-width : 1365px)
+	// Стартовый экран - левая надпись---------
+	.left-text-1
+		left: -120px
+	.left-text-2
+		left: -80px
+	// Главная --------------------------------
+	.menu
+		.bmenu-line
+			a.SSG
+				font-size: 22px
+				bottom: 14px
+				text-transform: none
+				font-weight: 200
+	// Портфолио--------------------------------
+	.content
+		article
+			max-width: 1280px
+	.tracks-grid
+		grid-template-columns: repeat(7, 1fr)
+	.track-item
+		min-height: 180.85px
+		&:nth-child(1)
+			grid-column: 1 / 3
+			grid-row: 1 / 3
+		&:nth-child(2)
+			grid-column: 3 / 5
+			grid-row: 2 / 4
+		&:nth-child(3)
+			grid-column: 6 / 8
+			grid-row: 1 / 3
+		&:nth-child(4)
+			grid-column: 2 / 4
+			grid-row: 4 / 6
+		&:nth-child(5)
+			grid-column: 6 / 8
+			grid-row: 4 / 6
+		&:nth-child(6)
+			grid-column: initial
+			grid-row: initial
+	// Демки ----------------------------------
+	.new-player 
+		.player 
+			.ctrl 
+				.tracker
+					width: 55%
+				.volume
+					width: 10%
+					left: 70%
+				.vol-icon
+					left: 63%
+				.play, .pause
+					left: 0
+	// Навигация---------------------------------		
+	.owl-nav
+		bottom: 480px
+	// Демки--------------------------------------
+	.new-player
+		height: 370px
+		.player
+			.cover
+				height: 300px
+				width: 300px
+			.ctrl
+				height: 50px
+				width: 75%
+				top: 330px
+				left: 330px
+				.tracker
+					width: 74%
+					left: 6%
+				.vol-icon
+					left: 84%
+				.volume
+					left: 90%
+			.title
+				font-size: 20px
+				top: 340px
+				color: black
+			.artist
+				font-size: 22px
+				top: 305px
+				color: $red
+			.playlist
+				width: 930px
+				height: 300px
+				left: 330px
+				.song-box
+					.song-item
+						min-width: 300px
+	// Резиденты--------------------------------------
+	.resid
+		.post
+			//height: 370px
+		.res-o
+			height: 250px
+			width: 250px
+//========================================
+@media only screen and (max-width : 1279px)
+	// Старторвый экран - логотип ----------------		
+	.site-header
+		background:
+			image: url(../img/Logo_SSG_without_graph.svg) 
+			size: 700px	
+	//----------------------------------------------
+	// Стартовый экран - левая надпись---------
+	.left-text-1
+		left: -120px
+	.left-text-2
+		left: -90px
+	.left-text-1, .left-text-2
+		font-size: 35px
+	//-----------------------------------------
+	// Строка меню ----------------------------------
+	.menu
+		display: none !important
+	//----------------------------------------------
+	// Портфолио------------------------------------
+	.content
+		article
+			max-width: 1024px
+	.tracks-grid
+		grid-template-columns: repeat(6, 1fr)
+	.track-item
+		min-height: 168.66px
+		&:nth-child(1)
+			grid-column: 1 / 4
+			grid-row: 2 / 5
+			height: 510px
+		&:nth-child(2)
+			grid-column: 4 / 7
+			grid-row: 3 / 6
+			height: 510px
+		&:nth-child(3)
+			grid-column: initial
+			grid-row: initial
+		&:nth-child(4)
+			grid-column: initial
+			grid-row: initial
+		&:nth-child(5)
+			grid-column: initial
+			grid-row: initial
+		&:nth-child(6)
+			grid-column: initial
+			grid-row: initial
+	// Навигация---------------------------------		
+	.owl-nav
+		bottom: 520px
+	// Демки--------------------------------------
+	.new-player 
+		height: 380px
+		.player 
+			.cover
+				height: 300px
+				width: 300px
+			.ctrl
+				height: 50px
+				width: 75%
+				top: 330px
+				left: 340px
+				.tracker
+					width: 60%
+				.vol-icon
+					left: 70%
+				.volume
+					left: 77%
+			.title
+				font-size: 20px
+				top: 350px
+				color: black
+			.artist
+				top: 310px
+				color: $red
+			.playlist
+				width: 660px
+				height: 300px
+				left: 340px
+				.song-box
+					.song-item
+						min-width: 310px
+	// Резиденты--------------------------------------
+	.resid
+		.res-o
+			height: 200px
+			width: 200px
+	// Футер--------------------------------------
+	footer
+		padding-top: 0
+//========================================
+@media only screen and (max-width : 1023px)
+	// Старторвый экран - логотип ----------------		
+	.site-header
+		background:
+			image: url(../img/Logo_SSG_without_graph.svg) 
+			size: 600px	
+	// Старторый экран - левая надпись -------------
+	.left-text-1, .left-text-2
+		font-size: 40px
+	.left-text-1
+		left: -14%
+		//top: 50%
+	.left-text-2
+		left: -10%
+		//top: 50%
+	// Строка меню ----------------------------------
+	.menu
+		display: none !important
+	// Портфолио ------------------------------------
+	.content
+		article
+			max-width: 768px
+	.tracks-grid
+		grid-template-columns: repeat(4, 1fr)
+	.track-item
+		min-height: 190px
+		max-height: 190px
+		&:nth-child(1)
+			grid-column: initial
+			grid-row: initial
+		&:nth-child(2)
+			grid-column: initial
+			grid-row: initial
+	// Навигация ---------------------------------	
+	.owl-prev 
+		margin: 0 38% 0 0
+	.owl-next
+		margin: 0 0 0 38%
+	.owl-nav
+		bottom: 500px
+	// Демки --------------------------------------
+	.new-player 
+		height: 470px
+		.player 
+			.cover
+				height: 400px
+				width: 400px
+			.ctrl
+				height: 50px
+				width: 55%
+				top: 420px
+				left: 50%
+				margin: 0
+				.tracker
+					width: 50%
+					left: 10%
+				.vol-icon
+					left: 65%
+				.volume
+					left: 75%
+					width: 20%
+			.title
+				font-size: 17px
+				top: 440px
+				color: black
+			.artist
+				font-size: 24px
+				top: 410px
+				color: $red
+			.playlist
+				width: 320px
+				height: 400px
+				left: 430px
+				.song-box
+					.song-item
+						min-width: 300px
+	// Резиденты----------------------------
+	.resid
+		.post
+			//height: 350px
+		.res-o
+			height: 175px
+			width: 175px
+	// Футер--------------------------------
+	footer
+		padding-top: 0
+
+@media only screen and (max-width : 992px)
+	// Старторвый экран - логотип ----------------
+	.site-header
+		background:
+			image: url(../img/Logo_SSG_with_graph.svg)
+			size: 60vh
+	// Стартовый экран - левая надпись---------
+	.left-text-1, .left-text-2
+		//transform: rotate(270deg)
+		font-size: 27px
+	.left-text-1
+		left: -5%
+		top: 50%
+	.left-text-2
+		left: -3%
+		top: 50%
+	//-----------------------------------------
+	//----------------------------------------------
+	.bmenu
+		li	
+			height: 50px
+			margin-top: 0
+			margin-bottom: 0
+			a
+				font-size: 25px
+	//-------------------------------------------
+	form
+		display: none
+	//-------------------------------------------
+@media only screen and (max-width : 800px)
+	// Старторвый экран - логотип ----------------
+	.site-header
+		background:
+			image: url(../img/Logo_SSG_with_graph.svg) 
+			size: 40vh	
+//========================================
+@media only screen and (max-width : 767px)
+	// Старторвый экран - логотип ----------------
+	.site-header
+		background:
+			image: url(../img/Logo_SSG_with_graph.svg) 
+			size: 60vh
+	//----------------------------------------------
+	// Старторый экран - левая надпись -------------
+	.left-text-1, .left-text-2
+		font-size: 20px
+	.left-text-1
+		left: -8%
+		top: 50%
+	.left-text-2
+		left: -5%
+		top: 50%
+	// Кнопка входа------------------------------
+	.enter-site-cont
+		bottom: 14%
+		.enter-site
+			font-size: 18px
+	// Главная ----------------------------------
+	.menu
+		display: none !important
+	.bmenu
+		li	
+			a
+				font-size: 25px
+				height: auto
+	// Портфолио---------------------------------
+	.content
+		article
+			max-width: 640px
+			p
+				&.aboutus
+					font-size: 25px
+					line-height: 40px
+					width: 640px
+	.track-item
+		min-height: 158.5px
+		max-height: 158.5px
+		min-height: 158.5px
+		&:nth-child(1)
+			grid-column: initial
+			grid-row: initial
+			height: 158.5px
+	// Навигация---------------------------------	
+	.owl-nav
+		bottom: 425px
+	// Демки--------------------------------------
+	.new-player 
+		height: 350px
+		.player 
+			.cover
+				height: 300px
+				width: 300px
+			.ctrl
+				height: 50px
+				width: 50%
+				top: 320px
+				left: 50%
+				.tracker
+					width: 57%
+					left: 12%
+				.vol-icon
+					left: 73%
+				.volume
+					left: 85%
+					width: 20%
+			.title
+				font-size: 17px
+				top: 330px
+				color: black
+			.artist
+				font-size: 20px
+				top: 300px
+				color: $red
+			.playlist
+				width: 310px
+				height: 300px
+				left: 320px
+				.song-box
+					.song-item
+						min-width: 300px
+	// Резиденты--------------------------------
+	.resid
+		.res-text-box
+			margin: 10px
+			h3
+				font-size: 18px
+			p
+				height: 50px
+				text-align: center
+				font-size: 13px
+				line-height: 20px
+		.res-o
+			height: 130px
+			width: 130px
+	// Услуги и цены ----------------------------
+	.large-window
+		height: 450px
+		width: 450px
+		.window-tint
+			.services
+				ul
+					li
+						padding-bottom: 30px
+						h3
+							font-size: 20px
+					p
+						padding-top: 30px
+						font-size: 13px
+						line-height: 1
+	//Футер------------------------------------
+	.content
+		margin-bottom: 100vh
+	footer
+		padding-top: 0
+		height: 100vh
+	form
+		display: none
+	//-------------------------------------------
+@media only screen and (max-width : 639px)
+	// Старторвый экран - логотип ----------------		
+	.site-header
+		background:
+			image: url(../img/Logo_SSG_with_graph.svg) 
+			size: 60vh	
+	// Старторый экран - левая надпись -------------
+	.left-text-1, .left-text-2
+		background-color: transparent
+		margin: 3px
+		width: 100%
+		text-align: center
+		padding: 0
+		position: absolute
+		font-size: 20px
+		color: $gray
+		transform: rotate(270deg)
+	.left-text-1
+		left: -250px
+		top: 50%//150px
+	.left-text-2
+		left: -220px
+		top: 50%//150px		
+		color: $red
+	// Портфолио------------------------------------
+	.content
+		article
+			max-width: 480px
+			p
+				&.aboutus
+					font-size: 19px
+					line-height: 40px
+					width: 480px
+	.tracks-grid
+		grid-template-columns: repeat(2, 1fr)
+	.track-item
+		min-height: 239px
+		min-width: 239px
+		&:nth-child(1)
+			grid-column: initial
+			grid-row: initial
+			height: 239px
+	// Навигация---------------------------------	
+	.owl-nav
+		bottom: 150px
+	// Демки--------------------------------------
+	.new-player 
+		height: 780px
+		.player 
+			width: 100%
+			.cover
+				height: 480px
+				width: 100%
+			.ctrl
+				height: 50px
+				width: 75%
+				top: 540px
+				left: 0
+				.tracker
+					width: 70%
+					left: 10%
+				.vol-icon
+					left: 85%
+				.volume
+					left: 97%
+					width: 100px
+			.title
+				font-size: 17px
+				top: 510px
+				color: black
+			.artist
+				font-size: 24px
+				top: 480px
+				color: $red
+			.playlist
+				width: 460px
+				height: 200px
+				top: 580px
+				left: 0
+				.song-box
+					.song-item
+						min-width: 420px
+						max-width: 420px
+	// Резиденты--------------------------------------
+	.resid
+		.res-text-box
+			margin: 10px
+			h3
+				font-size: 25px
+			p
+				height: 50px
+				text-align: center
+				font-size: 17px
+				line-height: 20px
+		.res-o
+			height: 320px
+			width: 320px
+	// Услуги и цены ----------------------------
+	.large-window
+		height: 450px
+		width: 450px
+		.window-tint
+			.services
+				ul
+					li
+						padding-bottom: 30px
+						h3
+							font-size: 20px
+					p
+						padding-top: 30px
+						font-size: 13px
+						line-height: 1
+	// Форма обратной связи------------------------
+	form
+		display: none
+	//================================================
+@media only screen and (max-width : 479px)
+	// Старторвый экран - логотип ----------------		
+	.site-header
+		background:
+			image: url(../img/Logo_SSG_with_graph.svg) 
+			size: 350px	
+	// Старторый экран - левая надпись -------------
+	.left-text-1, .left-text-2
+		margin: 3px
+		width: 100%
+		padding: 0
+		font-size: 20px
+		transform: rotate(0deg)
+	.left-text-1
+		left: 0
+		top: 20px
+	.left-text-2
+		left: 0
+		top: 50px		
+		color: $red
+	// Главная - меню------------------------------
+	.bmenu, .bmenu-line
+		li
+			font-size: 40px
+			a
+				letter-spacing: 1px
+	// Заголовки ----------------------------------
+	.zagol, .zagolf
+		width: 360px
+		font-size: 30px
+		height: 30px
+		margin: 10px 0
+	// Соцсети-------------------------------------
+	.right	
+		width: 100%
+		height: 50px
+		position: absolute
+		//float: right
+		z-index: 11
+		//bottom: 0
+		margin: 0
+		.soc
+			position: absolute
+			//right: 0
+			margin: 0
+			//float: right
+			height: 50px
+			//left: 0
+			//width: auto
+			left: 50%
+			transform: translate(-50%, 0%)		
+	// Портфолио------------------------------------
+	.content
+		article
+			max-width: 360px
+			p
+				&.aboutus
+					font-size: 15px
+					line-height: 30px
+					margin: 15px 0
+					width: 360px
+	.tracks-grid
+		grid-template-columns: repeat(2, 1fr)
+	.track-item
+		min-height: 179px
+		min-width: 179px
+		&:nth-child(1)
+			grid-column: initial
+			grid-row: initial
+			height: 179px
+	// Навигация ---------------------------------
+	.owl-nav
+		bottom: 125px
+		.owl-prev 
+			margin: 0 30% 0 0
+		.owl-next
+			margin: 0 0 0 30%
+	// Демки--------------------------------------
+	.new-player 
+		height: 690px
+		.player 
+			.cover
+				height: 360px
+				width: 360px
+			.ctrl
+				height: 50px
+				width: 100%
+				top: 440px
+				left: 0
+				.play
+					left: 5px
+				.tracker
+					width: 44%
+					left: 13%
+				.vol-icon
+					left: 64%
+				.volume
+					left: 75%
+					width: 75px
+			.title
+				font-size: 17px
+				top: 400px
+				color: black
+				left: 5px
+			.artist
+				font-size: 24px
+				top: 365px
+				color: $red
+				left: 5px
+			.playlist
+				width: 340px
+				height: 200px
+				left: 10px
+				top: 490px
+	// Услуги и цены ----------------------------
+	.large-window
+		height: 360px
+		width: 360px
+		.window-tint
+			.services
+				padding-top: 30px
+				ul
+					li
+						padding-bottom: 12px
+						h3
+							font-size: 18px
+					p
+						padding-top: 30px
+						font-size: 13px
+						line-height: 1
+	//Футер------------------------------------
+	.content
+		margin-bottom: 100vh
+	footer
+		padding-top: 0
+		height: 100vh
+	.footcols
+		//padding-top: 20px
+		padding-left: 0
+		padding-right: 0
+	input
+		width: 200px
+		height: 40px
+		border-radius: 5px
+		border: 0
+		padding: 5px
+	button
+		width: 200px
+	.cprt-foot
+		font-size: 9px
+	.sitedev
+		font-size: 9px
+	//----------------------------------------------
+@media only screen and (max-width : 414px)
+	form
+		display: block
+//========================================
+@media only screen and (max-width : 359px)
+	// Старторый экран - левая надпись -------------
+	.left-text-1, .left-text-2
+		background-color: transparent
+		margin: 3px
+		width: 100%
+		text-align: center
+		padding: 0
+		position: absolute
+		font-size: 20px
+		color: $gray
+		transform: rotate(0deg)
+	.left-text-1
+		left: 0
+		top: 20px
+	.left-text-2
+		left: 0
+		top: 50px
+		color: $red
+	// Старторвый экран - логотип ----------------
+	.site-header
+		background:
+			image: url(../img/Logo_SSG_with_graph.svg)
+			size: 310px
+	// Заголовки ---------------------------------
+	.zagol, .zagolf
+		width: 320px
+	// Портфолио ---------------------------------
+	.content
+		article
+			max-width: 320px
+			p
+				&.aboutus
+					font-size: 15px
+					line-height: 30px
+					margin: 15px 0
+					width: 320px
+	.tracks-grid
+		grid-template-columns: repeat(2, 1fr)
+	.track-item
+		min-height: 159px
+		min-width: 159px
+		&:nth-child(1)
+			grid-column: initial
+			grid-row: initial
+			height: 159px
+	// Навигация ---------------------------------
+	.owl-nav
+		bottom: 125px
+		.owl-prev
+			margin: 0 30% 0 0
+		.owl-next
+			margin: 0 0 0 30%
+	// Демки --------------------------------------
+	.new-player 
+		height: 620px
+		.player 
+			height: auto
+			.cover
+				height: 320px
+				width: 320px
+			.ctrl
+				height: 32px
+				width: 100%
+				top: 390px
+				left: 0
+				i 
+					margin: 0
+					width: 16px
+					height: 16px
+				.tracker, .volume
+					top: 45%
+				.tracker
+					width: 48%
+					left: 13%
+				.vol-icon
+					left: 64%
+				.volume
+					left: 76%
+					width: 70px
+			.title
+				font-size: 17px
+				top: 355px
+				color: black
+			.artist
+				font-size: 20px
+				top: 325px
+				color: $red
+			.playlist
+				width: 300px
+				height: 180px
+				top: 440px
+				.song-box
+					.song-item
+						height: 70px
+						min-width: 280px
+						.item-art
+							margin: 5px 0 0 80px
+							padding: 0
+						.item-track
+							margin-left: 80px
+							margin-top: 0px
+							padding: 0
+							font-size: 13px
+						.song-image
+							width: 70px
+							height: 70px
+	// Услуги и цены ----------------------------
+	.large-window
+		height: 320px
+		width: 320px
+		.window-tint
+			.services
+				padding: 0
+				ul
+					p
+						font-size: 11px
+						line-height: 1
+						padding: 0
+						margin-top: 25px
+					li
+						padding: 0
+						margin-top: 15px	
+						margin-bottom: 15px	
+						h3
+							font-size: 17px
+							height: auto
+							padding: 0
+	//Футер------------------------------------
+	.content
+		margin-bottom: 100vh
+	footer
+		padding-top: 0
+		height: 100vh
+		h3
+			margin: 0
+	.footcols
+		padding-top: 0
+		padding-left: 0
+		padding-right: 0
+		form
+			margin: 0
+	input
+		width: 200px
+		height: 40px
+		border-radius: 5px
+		border: 0
+		padding: 5px
+	button
+		width: 200px
+	.cprt-foot
+		font-size: 8px
+	.sitedev
+		font-size: 8px
